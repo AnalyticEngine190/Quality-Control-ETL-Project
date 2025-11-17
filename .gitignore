@@ -1,0 +1,25 @@
+Python
+
+venv/
+.venv/
+pycache/
+*.pyc
+
+Data Files
+
+We NEVER upload the raw data to GitHub.
+
+The .gitignore file tells Git to ignore them.
+
+*.csv
+*.feather
+*.json
+*.xlsx
+
+IDE files (PyCharm)
+
+.idea/
+
+Jupyter
+
+.ipynb_checkpoints
